@@ -230,39 +230,39 @@ Enam langkah ini memastikan sistem operasi komputer dimuat dengan benar dan siap
 
 ## Apa itu Motherboard?
 
-![alt text](image.png)
+![alt text](media/image.png)
 Komputer adalah perangkat elektronik yang memproses data sesuai dengan kebutuhan pengguna menggunakan perangkat IO. Pemrosesan data terjadi di dalam prosesor, sebuah komponen penting. Prosesor terletak di papan sirkuit perangkat keras yang disebut motherboard atau papan sirkuit tercetak (PCB).
 
 ### Komponen Motherboard :
 
 1. Slot CPU: Slot ini berfungsi sebagai penghubung antara motherboard dan mikroprosesor. Slot ini membuat CPU lebih mudah dioperasikan dan melindungi CPU dari bahaya saat memasang atau melepasnya. Slot ini juga memiliki kunci untuk menghentikan pergerakan CPU dan pendingin untuk menghilangkan panas tambahan.
-   ![alt text](image-1.png)
+   ![alt text](media/image-1.png)
 2. RAM Slot : RAM (Random Access Memory) dipasang di slot atau soket memori pada motherboard. Komputer mungkin memiliki dua slot memori atau lebih.
-   ![alt text](image-2.png)
+   ![alt text](media/image-2.png)
 3. Expansion Slot : Sering disebut sebagai port ekstensi atau slot bus. Ini adalah koneksi atau port pada motherboard yang menawarkan tempat untuk meletakkan kartu ekspansi untuk komponen. Slot ini juga dikenal dengan nama slot bus dan port ekspansi. Ini adalah port atau koneksi pada motherboard yang menawarkan tempat untuk menambahkan kartu ekspansi perangkat keras. Misalnya, Anda dapat membeli kartu ekspansi video, menaruhnya di slot ekspansi, dan kemudian memasang kartu video baru di komputer. AGP, AMR, CNR, PCI, dan slot ekspansi populer lainnya di komputer hanyalah beberapa contoh.
-   ![alt text](image-3.png)
+   ![alt text](media/image-3.png)
 4. Capacitor : Dua pelat konduksi dan isolator tipis ditempatkan bersama untuk membentuk kapasitor. Komponen-komponen ini terkandung dalam kantong plastik.
-   ![alt text](image-4.png)
+   ![alt text](media/image-4.png)
 5. Inductor (Coil) : Kawat penghantar dililitkan di sekitar inti besi untuk membuat kumparan elektromagnetik yang dikenal sebagai induktor. Induktor menyimpan energi magnetik dengan berfungsi sebagai elektromagnet atau induktor.
-   ![alt text](image-5.png)
+   ![alt text](media/image-5.png)
 6. Northbridge: Chip terintegrasi yang disebut northbridge memungkinkan komunikasi antara antarmuka CPU, AGP, dan memori. Selain itu, chip ini memungkinkan komunikasi antara chip southbridge dan pengontrol grafis, CPU, dan RAM.
-   ![alt text](image-7.png)
+   ![alt text](media/image-7.png)
 7. Southbridge: Mengontrol fungsi input dan output. Karena lokasinya, ini disebut sebagai southbridge. ini memungkinkan komunikasi antara chip northbridge.
-   ![alt text](image-7.png)
+   ![alt text](media/image-7.png)
 8. USB Port : Tempat memasang perangkat keras seperti mouse dan keyboard ke komputer menggunakan port USB.
-   ![alt text](image-8.png)
+   ![alt text](media/image-8.png)
 9. PCI Slot : Slot ini memungkinkan Anda menyambungkan perangkat keras Peripheral Component Interconnect Slot (PCI), seperti kartu suara dan video, perangkat keras jaringan, dan modem. Slot ini digunakan untuk menyambungkan periferal.
-   ![alt text](image-9.png)
+   ![alt text](media/image-9.png)
 10. AGP Slot : Disebut sebagai slot Accelerated Graphics Port (AGP). Slot untuk menyambungkan kartu grafis disediakan. Slot ini digunakan untuk menampilkan grafik pada layar.
-    ![alt text](image-10.png)
+    ![alt text](media/image-10.png)
 11. Heat Sink : Panas yang dihasilkan oleh prosesor komputer diserap dan disebarkan oleh heat sink. Fungsi utamanya adalah mendinginkan CPU dengan menyerap panas saat sistem berjalan.
-    ![alt text](image-11.png)
+    ![alt text](media/image-11.png)
 12. Power Connector : Tujuan konektor daya adalah untuk memberikan daya ke motherboard.
-    ![alt text](image-12.png)
+    ![alt text](media/image-12.png)
 13. CMOS Battery : Semikonduktor Oksida Logam Pelengkap adalah singkatan dari Baterai CMOS. Ini adalah memori penyimpanan. Baterai yang menyediakan daya cadangan.
-    ![alt text](image-13.png)
+    ![alt text](media/image-13.png)
 14. Integrated Circuits (IC) : IC juga merupakan komponen yang sangat penting dari motherboard. Sirkuit terpadu digunakan untuk pemrosesan dan penyimpanan data.
-    ![alt text](image-14.png)
+    ![alt text](media/image-14.png)
 
 Bagaimana cara install Linux Debian di Virtual Box?
 
