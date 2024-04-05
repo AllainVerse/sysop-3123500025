@@ -449,8 +449,16 @@ C. Lakukan urutan pekerjaan berikut :
     ![alt text](media/latihan-C.11.png)
     ![alt text](media/latihan-C.11.1.png)
 
-**LAPORAN RESMI:**
+    Analisa :
+    Proses "sleep" di latar belakang tetap berjalan meskipun sudah log out dan log in kembali. Hal ini menunjukkan bahwa proses "sleep" tidak terkait dengan akun pengguna dan berjalan secara independen di sistem.
 
-1. Analisa hasil percobaan yang Anda lakukan.
-1. Kerjakan latihan diatas dan analisa hasil tampilannya.
-1. Berikan kesimpulan dari praktikum ini.
+**Perbedaan System Call dan Interupt dalam Diagram State**
+Interrupt dan system call memiliki perbedaan dalam diagram state pada sistem operasi. Berikut perbedaannya :
+
+1. Interrupt adalah sinyal yang dikirimkan ke processor oleh perangkat keras atau perangkat lunak untuk memberitahu adanya kejadian khusus yang memerlukan perhatian segera.Ketika terjadi interrupt, processor akan menghentikan eksekusi instruksi saat ini dan beralih ke penanganan interrupt. Interrupt akan menyebabkan proses beralih dari state "Running" ke state "Interrupt Handler" secara langsung.
+
+2. System call adalah mekanisme yang digunakan oleh proses untuk meminta layanan dari sistem operasi. Ketika proses memerlukan layanan dari sistem operasi, misalnya untuk membuka file, mengalokasikan memori, atau mengirim pesan, proses akan melakukan system call. System call akan menyebabkan proses beralih dari state "Running" ke state "Waiting" terlebih dahulu, sebelum kemudian kembali ke state "Running" setelah sistem operasi selesai menangani permintaan.
+
+**KESIMPULAN**
+
+Dari praktikum ini kami dapat memahami konsep dasar proses seperti pembuatan, identifikasi, dan struktur hubungan antar proses (parent-child), mempelajari berbagai teknik untuk mengelola proses dalam lingkungan Linux seperti menampilkan status dan mengontrol jalannya proses menggunakan perintah-perintah shell, mendalami konsep penjadwalan prioritas proses untuk mengatur urutan eksekusi berdasarkan kebutuhan dan prioritas, dan mempraktikkan secara langsung cara mengelola proses secara efisien menggunakan shell Linux, sehingga mereka dapat mengembangkan keterampilan praktis yang dapat diterapkan dalam penggunaan sehari-hari dari sistem operasi Linux, dan secara keseluruhan, praktikum ini memberikan fondasi yang kuat dalam manajemen proses pada sistem operasi Linux, yang sangat berguna dalam pengembangan keterampilan teknis.
